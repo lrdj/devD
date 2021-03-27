@@ -1,12 +1,42 @@
-# Site Settings
-locale         : "en-GB"
-title          : "Good looks like this"
-description    : "Some of Dug's more interesting design things"
-name           : "Dug Falby"
-email          : dug@goodlookslikethis.com
-subject        : "Contact from Good Looks Like This website"
-baseurl        : "" # /GLLT_01 the subpath of your site, e.g. /blog
-url            : "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink      : /:year/:month/:title:output_ext
+title: Good looks like this
+email: dug@goodlookslikethis.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Some of Dug's more interesting design things.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dug
+github_username:  lrdj
 
+# Build settings
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 
+paginate: 7
+paginate_path: "/blog/p:num/"
+
+blogIndexSubtitles: true
+
+# case footer links
+case_footer_P_image: /i/address-book-metaphor.png
+case_footer_N_image: /i/BM-report-C.png
+
+collections:
+  case_indices:
+    output: true
+    permalink: /cases/:name
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      author: "Dug Falby"
+      layout: post
+      bodyclass: single
+  -
+    scope:
+      type: "case_indices"
+    values:
+      layout: caseindex
