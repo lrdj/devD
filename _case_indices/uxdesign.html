@@ -3,19 +3,3 @@ title: "UX design"
 indexslug: "uxdesign"
 subtitle: "UX projects where I converted user and stakeholder insights into successful product experiences."
 ---
-
-{%- include case_indices.html -%}
-
-<hr>
-
-<h1>{{ page.title }}</h1>
-<h3>{{ page.subtitle }}</h3>
-
-
-{% assign cases = site.pages | where_exp: "case", "case.portfolio contains page.title" %}
-
-{% for case in cases %}
-  <h2><a href="{{ case.url }}">{{ case.title }}</a></h2>
-  <p>{{ case.subtitle }}</p>
-{% endfor %}
-
