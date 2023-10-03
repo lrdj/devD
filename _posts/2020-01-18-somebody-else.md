@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Somebody else is running your help desk"
 subtitle: "Customer service trends"
 featured_image: /i/somebody-else.jpg

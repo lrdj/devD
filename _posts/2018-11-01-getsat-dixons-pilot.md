@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Getsat pilot at Dixons Retail (aka Currys/PC World)"
 subtitle: "Prototyping customer experiences in a high-traffic ecommerce environment"
 featured_image: /i/getsat.jpg

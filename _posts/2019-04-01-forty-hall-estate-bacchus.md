@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Forty Hall Estate Bacchus 2013"
 subtitle: "Developing a brand for a London vineyard with social purpose"
 

@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: Things that give ecommerce retailers nightmares?
 subtitle: Thoughts on multi-chanel commerce after re-platforming Dixons Stores Group.
 featured_image: /i/epos-risk.jpg

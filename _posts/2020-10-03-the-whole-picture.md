@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Where should service designers be focusing?"
 featured_image: /i/big-picture.png
 alt: "Natalie Harney is AMAZING https://www.natalieharney.com/"

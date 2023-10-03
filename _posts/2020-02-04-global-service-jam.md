@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Global Service Jam"
 subtitle: "48 hours in Leeds"
 featured_image: /i/mental_model_small.jpg
@@ -6,8 +7,8 @@ tags:
  - GSJ
  - jamming
  - jam
- - "Business Design"
- - "Service Design"
+ - business design
+ - service design
 
 intro: >
   I just spent the weekend in Leeds jamming with some very interesting folk. We were challenged to develop a service prototype in 48 hours under the overall theme of "(super)heroes". We chose to work in the problem space around youth and crime.

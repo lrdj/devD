@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Customer Experience Management"
 subtitle: "Ways to contact fellow attendees"
 

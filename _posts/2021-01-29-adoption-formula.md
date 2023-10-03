@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "The User Adoption formula"
 subtitle: "Successful services are adopted services."
 featured_image: /i/aeav-sq.png

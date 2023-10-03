@@ -1,0 +1,202 @@
+/*
+Base styles for template - WIP
+*/
+
+/* wrapper and grid intents etc. site-wide variables */
+
+:root {
+    --wrapper-max-width: 1200px;
+    --wrapper-side-full: 16.5%;
+/*  --wrapper-side-small: 16dp; */
+    --wrapper-side-small: 0.5em;
+
+/*  colour variables  */
+    --haud-darkgold: #af9568;
+    --but-brdr-col: #0b0c0c;
+    --but-brdr-col-hover: #af9568;
+}
+
+
+.wrapper {
+    padding:0 var(--wrapper-side-full) 0 var(--wrapper-side-full);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .wrapper {
+        padding:0 var(--wrapper-side-small) 0 var(--wrapper-side-small);
+    } 
+}
+
+
+/* post images */
+
+img { width:100%; }
+
+
+
+
+
+/* logo */
+
+#logo { margin: 2em 0 0 0.75em; }
+#logo img { width: 60px; }
+
+@media (max-width: 768px) {
+  #logo {
+    margin-top: var(--wrapper-side-small);
+    margin-left: var(--wrapper-side-small);
+  }
+  #logo img {
+    width: 40px;
+  }
+}
+
+
+/* pagination */
+
+nav#postPagination {
+  padding:1.5em 0 0 0;
+  text-align: center;
+}
+
+.pagination .button {  }
+
+/*
+.pagination
+.load-more 
+.button 
+.styled
+*/
+
+
+/* footer structure and styles - need to pull font styling out of here */
+
+footer.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--wrapper-side-full) 2em var(--wrapper-side-full);
+}
+
+.social-media-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* aligns to the left */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-list li {
+    margin: 3px 0;
+}
+
+.social-media-list a {
+    background: none;
+    text-decoration: none;
+    color: #999;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.social-media-list .svg-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    fill: #999;
+    background: none;
+}
+
+.social-media-list .username, .social-media-list li a span:not(.username) {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.social-media-list a:hover {
+    color: #333; /* darker text on hover */
+}
+
+.social-media-list a:hover .svg-icon {
+    fill: #333; /* darker icon on hover */
+}
+
+@media (max-width: 600px) {
+    footer.wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 var(--wrapper-side-small) 0 var(--wrapper-side-small);
+    }
+    .social-media-list {
+        margin-top:1em;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+/* Dug hacks */
+
+.gallery2 {padding:0;width: 100%;margin-bottom: 1em;}
+.gallery2 img {padding:0;margin: 0 1% 1px 0;width: 48%;}
+
+.gallery3 {padding:0;width: 100%;margin-bottom: 1em;}
+.gallery3 img {padding:0;margin: 0 1px 1px 0;width: 32%;}
+
+body.single .post-content p, body.single .post-content blockquote p {
+  /* margin: 0; */
+}
+
+blockquote {
+  margin: 1rem -4rem 1rem -2rem;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  font-size: 150%;
+}
+
+div {border:0px solid red;}
+
+dl {
+  display: flex;
+  flex-flow: row wrap;
+  margin:1em 0 1em 0;
+}
+dt {
+  flex-basis: 20%;
+  text-align: left;
+  text-transform: uppercase;
+}
+dd {
+  flex-basis: 70%;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.heroimagecaption {
+  width: 66%;
+  float: right;
+  font-size: x-small;
+  text-align: left;
+  font-weight: bold;
+  margin: 1em 0 3em 0;
+}
+
+.imagecaption {
+  width: 100%;
+  float: right;
+  text-align: left;
+  font-size: x-small;
+  font-weight: bold;
+  margin: -20px 0 3em 0;
+}
+
+.footnotes {
+  font-size: small;
+}
+
+.tight {
+  padding: 0;
+  margin: 0;
+}
+

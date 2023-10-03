@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Question at work: Where are you at with wearables?"
 subtitle: "Smart watches, trackers and Apple's brand positioning."
 featured_image: /i/tileapp-sq.jpg

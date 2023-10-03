@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Should I commission more strategy work from agencies?"
 subtitle: "Is strategy worth the cash?"
 # featured_image: /i/strategy_fit_sq.png

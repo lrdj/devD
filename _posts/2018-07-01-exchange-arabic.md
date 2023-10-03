@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Vodafone Exchange (al Souq arabic edition)"
 subtitle: "UI translation of exchange app for the Egypt market pilot."
 

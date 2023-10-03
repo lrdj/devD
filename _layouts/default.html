@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}"  class="no-js">
 
-  {%- include head.html -%}
+  {%- include 2023/head.html -%}
 
-  <body class="white-bg {{ page.bodyclass }}">
+  <body class="{{ page.bodyclass }}">
 
-    {%- include header.html -%}
+    {%- include 2023/header.html -%}
 
         {{ content }}
 
-    {% include footer.html %}
+    {% include 2023/footer.html %}
 
   </body>
 </html>

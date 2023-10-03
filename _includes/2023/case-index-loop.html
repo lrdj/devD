@@ -1,0 +1,5 @@
+{% for case in site.[page.parent] %}
+  {% unless case.path contains "index.md" %}
+- [{{ case.title }}]({{ case.url | relative_url }})
+  {% endunless %}
+{% endfor %}

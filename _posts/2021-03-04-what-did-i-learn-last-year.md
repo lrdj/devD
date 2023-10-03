@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "What did I learn in 2020?"
 featured_image: /i/BM-report-B.png
 alt: "I may be experienced, but I learn something new pretty much every project I work on"

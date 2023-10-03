@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "The Vision Canvas"
 subtitle: "Should I build a vision canvas with my stakeholders?"
 featured_image: /i/vision-workshops/workshop-team.jpg
@@ -11,6 +12,13 @@ tags:
 intro: >
   "In the time I've been here, I have not yet heard a clearly expressed product vision, roadmap or strategy"
 
+category:
+ - business design
+ - innovation
+ - org design
+ - organisational culture
+ - transformation
+ 
 ---
 
 Recently, I've been hearing some variation of the above statement much more frequently than I'd expect.

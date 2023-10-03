@@ -1,0 +1,20 @@
+designLeadership:
+  title: "Design leadership"
+  slug: "leadership"
+  subtitle: "Case studies illustrating my embedding and growing design into organisations"
+sdInGov:
+  title: "GOV.UK roles"
+  slug: "sdingov"
+  subtitle: "Service design in government. Cases as both practitioner and leader in GDS, DDAT, and local government organisations"
+serviceDesign:
+  title: "Senior IC"
+  slug: "practitioner"
+  subtitle: "Service design and product design projects delivered as a senior independent contributor"
+strategy:
+  title: "Strategy"
+  slug: "strategy"
+  subtitle: "Strategic design work. Financial services, FMCG, consulting, and transformation cases"
+remoteTeams:
+  title: "Remote teams"
+  slug: "remote"
+  subtitle: "Influencing, leading, and delivering remotely: Projects from 2020 where I modified my practise to deliver results remotely"

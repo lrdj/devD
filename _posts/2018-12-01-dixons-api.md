@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "The British high street's first api"
 subtitle: "Building a developer community around an API of Currys/PCWorld skus."
 featured_image: /i/dixons_api.jpg

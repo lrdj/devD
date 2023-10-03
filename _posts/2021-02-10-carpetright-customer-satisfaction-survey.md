@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Carpetright Customer Satisfaction Survey"
 subtitle: "Here's another thing to be happy about. By simply completing our quick survey you could win yourself £500 Carpetright vouchers, or the value of your recent order!"
 featured_image: /i/service.jpg
@@ -11,6 +12,9 @@ tags:
 intro: >
   One of the biggest challenges of CSAT survey handling is how to create a question/answer flow that allows the customer to describe the problem while ensuring this data is correctly stored and acted on.
 
+category:
+ - "Service design"
+ - CX
 ---
 ![We hope you're enjoying your new Flooring. Here's another thing to be happy about. By simply completing our quick survey you could win yourself £500 Carpetright vouchers, or the value of your recent order!](/i/carpetright-interior.jpg)
 

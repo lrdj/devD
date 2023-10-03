@@ -1,4 +1,5 @@
 ---
+layout: 2023/post
 title: "Vodafone Exchange (Agora Betavine prototype)"
 subtitle: "Developing a brand for a London vineyard with social purpose"
 
