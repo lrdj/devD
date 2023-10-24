@@ -3,7 +3,8 @@ layout: 2023/post
 title: "Static site builders and continuous deployment"
 subtitle: "I’ve been working with some developers recently and decided to evaluate a website production workflow built around Jekyll, a static site generator..."
 
-featured_image: /i/jekyll.png
+hero_image_alt: "No alt content yet"
+hero_image: /i/jekyll.png
 
 tags:
  - devops

@@ -1,8 +1,16 @@
 ---
 layout: 2023/post
 title: "Carpetright Customer Satisfaction Survey"
-subtitle: "Here's another thing to be happy about. By simply completing our quick survey you could win yourself £500 Carpetright vouchers, or the value of your recent order!"
-featured_image: /i/service.jpg
+subtitle: >
+  Here's another thing to be happy about. By simply completing our quick survey you could win yourself £500 Carpetright vouchers, or the value of your recent order!
+
+index_image: /i/service.jpg
+hero_image: /i/carpetright-interior.jpg
+hero_image_alt: >
+  We hope you're enjoying your new Flooring. 
+  Here's another thing to be happy about. 
+  By simply completing our quick survey you could win yourself £500 Carpetright vouchers, or the value of your recent order!
+
 tags:
  - CX
  - "Customer service"
@@ -16,7 +24,6 @@ category:
  - "Service design"
  - CX
 ---
-![We hope you're enjoying your new Flooring. Here's another thing to be happy about. By simply completing our quick survey you could win yourself £500 Carpetright vouchers, or the value of your recent order!](/i/carpetright-interior.jpg)
 
 I just had a hickup in a shopping experience and filled in Carpetright's CSAT + NPS survey (not sure what <a href="http://www.bain.com/publications/articles/introducing-the-net-promoter-system-loyalty-insights.aspx">Bain</a> would make of that, the mix of the two ways of measuring?).
 

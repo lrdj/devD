@@ -1,7 +1,7 @@
 title: Good looks like this
 email: dug@goodlookslikethis.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Some of Dug's more interesting design things.
+  Some of Dug's slightly more interesting design things.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -22,6 +22,15 @@ paginate: 9
 paginate_path: "/articles/p:num/"
 
 blogIndexSubtitles: true
+
+# set link structure for blog posts
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      permalink: /:title.html
+
 
 # case footer links
 case_footer_P_image: /i/address-book-metaphor.png

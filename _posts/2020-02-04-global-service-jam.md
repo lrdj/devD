@@ -2,7 +2,8 @@
 layout: 2023/post
 title: "Global Service Jam"
 subtitle: "48 hours in Leeds"
-featured_image: /i/mental_model_small.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/mental_model_small.jpg
 tags:
  - GSJ
  - jamming

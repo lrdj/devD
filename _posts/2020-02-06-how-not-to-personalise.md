@@ -2,7 +2,8 @@
 layout: 2023/post
 title: "How not to personalise"
 subtitle: "Dear Customer blah blah blah..."
-featured_image: /i/personalised-grumpy-cat-bad.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/personalised-grumpy-cat-bad.jpg
 tags:
  - marketing
  - consulting

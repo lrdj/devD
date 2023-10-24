@@ -6,7 +6,8 @@ subtitle: "Developing a brand for a London vineyard with social purpose"
 intro: >
   Nicki is working on the branding for a new wine grown in Enfield, North London (yes, really). You'll have to wait a few years to get some in your glass, but the service design is making headway.
 
-featured_image: /i/FHV-brand-moodboard.png
+hero_image_alt: "No alt content yet"
+hero_image: /i/FHV-brand-moodboard.png
 
 tags:
   - CX

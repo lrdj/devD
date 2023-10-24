@@ -2,21 +2,42 @@
 layout: default
 ---
 
+<style type="text/css">
+  figure {
+    width: 100%;
+    margin:1em 0 0 0;padding:0;
+    border:0px solid red;
+  }
+  figure img {
+    display: block;
+    width: 100%;
+  }
+  figcaption {
+    display: block;
+    margin: 0;
+    padding: 1em;
+    color: #333;
+    background: #E5E4E2;
+    font-size: small;
+    text-transfxorm: uppercase;
+    font-weighxt: bold;
+  }
+</style>
+
 <main>
+
     <section class="wrapper">
 
-          <article class="post">
-              <!-- if blogpost  
-              <p class="info-author"><span>Posted by <a href="#">{{ post.author }}</a></span></p>
-              endif -->
+      <figure>
+        {%- if page.target -%}<a href="{{- page.target -}}">{%- endif -%}<img src="{{ page.hero_image }}">{%- if page.target -%}</a>{%- endif -%}
+        {%- if page.hero_image_alt -%}<figcaption>{{ page.hero_image_alt }}</figcaption>{%- endif -%}
+      </figure>
 
-              <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+          <article class="post" style="width:66%;">
 
-              {%- if site.blogIndexSubtitles == true -%}
-              <p style="margin-bottom:0.5em;">{{ post.subtitle | truncatewords: 42 }}</p>
-              {%- endif -%}
+              <h1 id="headTitle">{{ page.title }}</h1>
 
-              <p class="post-intro">
+              <p class="post-intro" style="font-size: 1.33em;">
               {{ page.intro }}
               </p>
 
@@ -26,13 +47,18 @@ layout: default
               <p class="info-others">
                   <span id="postPubDate">{{ post.date | date: "%d/%m/%Y" }}</span>
                   <span id="postCategories">
-                  {%- if post.category -%}
-                    In&nbsp; 
-                    {%- for category in post.category -%}
-                      <a href="#" rel="category tag">{{ category }}</a>
-                      {%- unless forloop.last -%}, {% endunless -%}
-                    {%- endfor -%}
-                  {%- endif -%}
+
+              {% if post %}
+                {% assign categories = post.categories %}
+              {% else %}
+                {% assign categories = page.categories %}
+              {% endif %}
+              In&nbsp; 
+              {% for category in categories %}
+              <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+              {% unless forloop.last %}&nbsp;{% endunless %}
+              {% endfor %}
+
                   </span>
 
                   <span class="tags" style="font-weight: bold;">
@@ -50,6 +76,7 @@ layout: default
               </div>
               <!-- endif -->
           </article>
+  
     </section>
 
     <!-- move between posts -->

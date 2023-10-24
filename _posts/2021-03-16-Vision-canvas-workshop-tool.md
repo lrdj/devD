@@ -1,23 +1,30 @@
 ---
 layout: 2023/post
 title: "The Vision Canvas"
-subtitle: "Should I build a vision canvas with my stakeholders?"
-featured_image: /i/vision-workshops/workshop-team.jpg
-tags:
- - Strategy
- - Vision
- - "Business Design"
- - "Service Design"
+
+subtitle: "Should I build a vision canvas with my stakeholders? Getting everyone aligned on vision and purpose is a foundation for successful transformation"
+
+hero_image: /i/vision-workshops/workshop-team.jpg
+hero_image_alt: >
+  In retros, team members attending this in-person workshop described it as fun and rewarding. The requirement to be 'leaning forward' at all times means the sessions were also exhausting, but in a good way:-)
 
 intro: >
   "In the time I've been here, I have not yet heard a clearly expressed product vision, roadmap or strategy"
 
-category:
- - business design
- - innovation
- - org design
- - organisational culture
- - transformation
+categories:
+  - Enterprise software
+  - User research
+  - Innovation
+  - Transformation
+  - Culture
+
+tags:
+  - Strategy
+  - Vision
+  - Business design
+  - Service design
+  - org design
+  - organisational culture
  
 ---
 

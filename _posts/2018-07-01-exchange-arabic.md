@@ -6,7 +6,8 @@ subtitle: "UI translation of exchange app for the Egypt market pilot."
 intro: >
   Dug did the ethnography, concept development, service design and prototyping in partnership with Vodafone R&amp;D teams in London and in Spain.
 
-featured_image: /i/agora_UI_arabic.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/agora_UI_arabic.jpg
 
 tags:
  - Betavine

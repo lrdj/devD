@@ -1,7 +1,9 @@
 ---
 layout: 2023/post
 title: "Bringing the customer into the room"
-featured_image: /i/true-or-false.jpeg
+
+hero_image: /i/true-or-false.jpeg
+hero_image_alt: "Helping unblock customer assumptions, one workshop at a time:-)"
 alt: "Helping unblock customer assumptions, one workshop at a time:-)"
 
 intro: >

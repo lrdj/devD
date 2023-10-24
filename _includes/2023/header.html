@@ -1,31 +1,13 @@
 
-<div id="logo"><a href="/"><img src="/images/logo.svg" alt="dug"></a></div>
-
-<header class="wrapper">
-
-{% if page.bodyclass == "cases" %}
-    <h1 class="head-title">{{ site.data.constants.designLeadership.title }}</h1>
-    <p id="siteSubtitle">{{ site.data.constants.designLeadership.subtitle }}</p>
-
-    <nav id="casesNav">
-        {% for item in site.data.constants %}
-            <a href="/cases/{{ item[1].slug }}/" class="button">{{ item[1].title }}</a>
-        {% endfor %}
+<header>
+    <a href="/" id="identity">
+        <img src="/i/headernav/dug-logo-smaller.svg" alt="dug (company logo)">
+        <img src="/i/headernav/gltt.svg" alt="Good looks like this." id="glttBanner">
+    </a>
+    <nav id="headernavLinks">
+        <a href="/"><img src="/i/headernav/nav-blog-box.svg" alt="go to blog pages"></a>
+        <a href="/cases/"><img src="/i/headernav/nav-cases-box.svg" alt="go to case studies"></a>
     </nav>
-{% else %}
-    <h1 class="head-title">{{ site.title }}</h1>
-    <p id="siteSubtitle">{{ site.description }}</p>
-{% endif %}
-
-<nav id="casesNav">
-    {% for case in site.cases %}
-        <!-- Check if the file is an index.md to link to theme overviews only -->
-        {% if case.name == 'index' %}
-            <a href="{{ case.url }}" class="button">{{ case.title }}</a>
-        {% endif %}
-    {% endfor %}
-</nav>
-
-
-
 </header>
+<nav class="first"><!-- ok this is nasty but navigation elements like a drop-down could be in here --></nav>
+

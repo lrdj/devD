@@ -1,8 +1,15 @@
 ---
 layout: 2023/post
 title: "The User Adoption formula"
-subtitle: "Successful services are adopted services."
-featured_image: /i/aeav-sq.png
+subtitle: "Successful services are adopted services, so what is the best way to measure that?"
+
+index_image: /i/exchange-of-value-index.jpg
+hero_image: /i/exchange-of-value.jpg
+hero_image_alt: "Alignment between user and service can be expressed in terms of alignment with needs, by value co-created over context of use."
+
+categories:
+  - User research
+  - Transformation
 
 tags:
  - UX

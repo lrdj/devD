@@ -2,7 +2,8 @@
 layout: 2023/post
 title: "Getsat pilot at Dixons Retail (aka Currys/PC World)"
 subtitle: "Prototyping customer experiences in a high-traffic ecommerce environment"
-featured_image: /i/getsat.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/getsat.jpg
 
 intro: >
   One of the key pillars of the four-year Dixons Retail transformation program is <em>to be thrifty when building</em>. This is particularly relevant to software in the enterprise where feature-bloat and mystery licensing can mean you get some exceptionally poor value for your corporate dollar.

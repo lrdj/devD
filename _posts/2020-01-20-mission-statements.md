@@ -2,7 +2,8 @@
 layout: 2023/post
 title: "Mission statements"
 subtitle: "No purpose, no performance."
-featured_image: /i/ibm-sq.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/ibm-sq.jpg
 tags:
  - UX
  - consulting

@@ -1,11 +1,15 @@
 ---
 layout: 2023/post
 title: "What did I learn in 2020?"
-featured_image: /i/BM-report-B.png
-alt: "I may be experienced, but I learn something new pretty much every project I work on"
+szubtitle: "Should I build a vision canvas with my stakeholders?"
+
+hero_image: /i/BM-report-B.png
+hero_image_alt: >
+  I may be experienced, but I learn something new pretty much every project I work on
 
 categories:
- - "In things Dug cares about"
+ - Transformation
+ - Culture
 
 tags:
  - businessdesign

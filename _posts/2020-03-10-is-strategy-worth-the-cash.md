@@ -2,7 +2,8 @@
 layout: 2023/post
 title: "Should I commission more strategy work from agencies?"
 subtitle: "Is strategy worth the cash?"
-# featured_image: /i/strategy_fit_sq.png
+# hero_image_alt: "No alt content yet"
+hero_image: /i/strategy_fit_sq.png
 tags:
  - Strategy
  - Vision

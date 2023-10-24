@@ -2,7 +2,8 @@
 layout: 2023/post
 title: "Being a better agency"
 subtitle: "Agency accountability tracked over employee engagement."
-featured_image: /i/acc-eng-sq.png
+hero_image_alt: "No alt content yet"
+hero_image: /i/acc-eng-sq.png
 
 tags:
  - agency

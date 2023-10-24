@@ -1,51 +1,71 @@
 ---
 layout: default
+title: "Dug Falby's work blog. Good looks like this."
+subtitle: > 
+    Some of Dug's <em>slightly</em> more interesting design things&hellip;
 ---
-
-{%- if site.posts.size > 0 -%}
 
 <main>
     <section class="wrapper">
-        <ul class="article-list index-block">
 
+        <h1 id="headTitle">
+            {{ page.subtitle }}
+        </h1>
+
+        <!-- p id="siteSubtitle">{{ site.description }}</p -->
+        
+        <ul class="article-list index-block">
+            {%- if site.posts.size > 0 -%}
 
             {% for post in paginator.posts %}
             <li>
-                <article class="grid-item post">
+                <article>
                     <!-- if blogpost -->
+                    {% if post.author %}
                     <p class="info-author"><span>Posted by <a href="#">{{ post.author }}</a></span></p>
+                    {% endif %}
                     <!-- endif -->
 
-                    <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
 
                     {%- if site.blogIndexSubtitles == true -%}
-                    <p style="margin-bottom:0.5em;">{{ post.subtitle | truncatewords: 42 }}</p>
+                        {%- if post.subtitle -%}
+                            <p class="excerptSubtitle">{{ post.subtitle | truncatewords: 32 }}</p>
+                        {%- else -%}
+                            <p class="excerptSubtitle">{{ post.content | markdownify | strip_html | truncatewords: 32 }}</p>
+                        {%- endif -%}
                     {%- endif -%}
 
                     <!-- if blogpost -->
                     <p class="info-others">
-                        <span id="postPubDate">{{ post.date | date: "%d/%m/%Y" }}</span>
+                        <!-- span id="postPubDate">{{ post.date | date: "%d/%m/%Y" }}</span -->
                         <span id="postCategories">
-                        {%- if post.category -%}
-                          In&nbsp; 
-                          {%- for category in post.category -%}
-                            <a href="#" rel="category tag">{{ category }}</a>
-                            {%- unless forloop.last -%}, {% endunless -%}
-                          {%- endfor -%}
+
+                        {%- if post.categories -%}
+                          {% if post %}
+                            {% assign categories = post.categories %}
+                          {% else %}
+                            {% assign categories = page.categories %}
+                          {% endif %}
+                            {% for category in categories %}
+                              <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                              {%- unless forloop.last -%},&nbsp;{%- endunless -%}
+                            {% endfor %}
                         {%- endif -%}
+
                         </span>
                         <span id="postComments"><i>(comments disabled)</i></span>
                     </p>
                     <!-- endif -->
 
-                    <!-- if page.indeximage -->
-                    <div class="post-image-wrap">
-                        <div style="background: url({{- post.featured_image -}}) center center no-repeat;background-size: cover;" class="post-image"></div>
-                    </div>
+                    <!-- if has images -->
+                        <figure style="--bg-image: url({%- if post.index_image -%}'{{ post.index_image }}'{%- elsif post.hero_image -%}'{{ post.hero_image }}'{%- endif -%});" aria-label="{{ post.hero_image_alt }}"></figure>
                     <!-- endif -->
+
                 </article>
             </li>
             {%- endfor -%}
+            {%- endif -%}
         </ul>
     </section>
 
@@ -53,6 +73,3 @@ layout: default
    {% include 2023/paginator-nextprev.html %}
 
 </main>
-
-{%- endif -%}
-

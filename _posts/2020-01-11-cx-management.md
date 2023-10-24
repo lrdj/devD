@@ -6,7 +6,8 @@ subtitle: "Ways to contact fellow attendees"
 intro: >
   Off to hear some amazing speakers at Customer Experience Management, Seems like increasingly CX is becoming synonymous with contact centre management, which feels like we're missing a trick (what with the experience being better managed in round, a la service design) but I guess this is how the market is playing out.
   
-featured_image: /i/qr.png
+hero_image_alt: "No alt content yet"
+hero_image: /i/qr.png
 
 tags:
  - CX

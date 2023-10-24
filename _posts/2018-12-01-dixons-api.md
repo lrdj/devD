@@ -2,7 +2,8 @@
 layout: 2023/post
 title: "The British high street's first api"
 subtitle: "Building a developer community around an API of Currys/PCWorld skus."
-featured_image: /i/dixons_api.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/dixons_api.jpg
 
 intro: >
   Dug has a secret master-plan to build a developer community around Dixons. The fit with Intel is a good one as the UK electricals retailer ships an inordinate number of devices powered by the American chip-maker.

@@ -1,19 +1,28 @@
 ---
 layout: 2023/post
 title: "Where should service designers be focusing?"
-featured_image: /i/big-picture.png
-alt: "Natalie Harney is AMAZING https://www.natalieharney.com/"
+
+hero_image_alt: >
+  Natalie Harney is AMAZING https://www.natalieharney.com/
+hero_image: /i/big-picture.png
 target: http://www.workovereasy.com/2020/05/22/why-i-created-a-space-to-imagine-the-future/
+
 tags:
  - strategy
  - vision
  - scope
- - "Service Design"
-category: "In things Dug cares about"
+ - orgdesign
+
+categories:
+  - Service design
+  - Transformation
+
 author: dug
 ---
+
 > It's only when you get the whole picture, 
 > you can fully understand what's going on.
+
 
 I'm reminded of an old ad for The Guardian. It talks about the importance of perspective (sound on please).
 

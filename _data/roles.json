@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Lloyds",
+    "idx": "010",
+    "anon": "Guiding an in-house design org towards greater strategic relevance",
+    "orgDescription": "High-street bank",
+    "myRole": "Service Design Lead",
+    "details": "Lead delivery squad, in-house. Small team; share team members and effort across our division of the bank",
+    "myActions": [
+      "Build stakeholder relationships",
+      "Advocate for design",
+      "Become a ‘trusted advisor’ to senior stakeholder",
+      "Give team permission to challenge their brief"
+    ],
+    "teamImpact": [
+      "Build courage to challenge the brief and guide our clients to better challenges",
+      "Communicate the value of design in a financial services environment",
+      "Build our platform",
+      "Drive group-wide transformation through impact of design on customers"
+    ]
+  },
+  {
+    "name": "Typeform",
+    "idx": "020",
+    "anon": "Improving a product organisation with business design leadership",
+    "orgDescription": "Round \"C\" SaaS scale-up",
+    "myRole": "Director of Service Design",
+    "details": "Director with no team (1st designer / future team). Leveraged other teams to have impact. In position to consult for CPO.",
+    "myActions": [
+      "Collaborated with other directors to change behaviour and generate outcomes across the product org",
+      "Coaching CPO on service line approach and journey management"
+    ],
+    "teamImpact": [
+      "Change of behaviours in other teams",
+      "Silo busting",
+      "Co-designing strategy",
+      "Product org changes towards service-ownership"
+    ]
+  },
+  {
+    "name": "Designit",
+    "idx": "030",
+    "anon": "Setting up a design agency for growth as part of a global tech consultancy",
+    "orgDescription": "Design agency part of tech consultancy group",
+    "myRole": "Executive leadership",
+    "details": "Studio executive at an Asian tech giant business unit. Part of leadership team of four execs reporting into MD",
+    "myActions": [
+      "Promote emotional safety and mastery of craft",
+      "Design advocacy with global clients",
+      "Set up business development pipeline"
+    ],
+    "teamImpact": [
+      "Teams led created pitches and won business (luxury brand pitch)",
+      "Teams upped their game in solution-shaping",
+      "Team was able to improve recruitment",
+      "Team worked in an incompatible culture and let their mojo influence the parent org"
+    ]
+  },
+  {
+    "name": "Nile",
+    "idx": "040",
+    "anon": "Helping a boutique consultancy find their misplaced mojo",
+    "orgDescription": "Boutique design consultancy",
+    "myRole": "Executive leadership",
+    "details": "Director in charge of consulting practice, which included UX, research, and service design across a team of 15 professionals",
+    "myActions": [
+      "Developped close partnership with MD to cover for founder on mat leave",
+      "Leverage consulting experience to shape go-to-market",
+      "Set up training",
+      "Manage stakeholders"
+    ],
+    "teamImpact": [
+      "GSJ Participation",
+      "Designed and delivered new service offering",
+      "Leads stepping up for extra engagement in order to keep customer happy through founder maternity leave"
+    ]
+  },
+  {
+    "name": "Accenture",
+    "idx": "050",
+    "anon": "Successfully grow practice in a global tech consulting firm with low design maturity",
+    "orgDescription": "Management consultancy",
+    "myRole": "Digital Consulting Director",
+    "details": "Lead UK region of new consulting practice at global consulting firm. Immature design business when I joined. Built UK arm of global design organization",
+    "myActions": [
+      "Advocate for design. Over, and over, and over, until I was blue in the face",
+      "Collaborate with my Global and European team-mates (we were building a new capability so made the most of our mix of backgrounds and skills)",
+      "Create a dome of protection where my people could thrive and produce great work. This firm is a hyper-accountability environment so much negotiating required to bring design thinking successfully into the company culture.",
+      "Organised the coming together of the digital strategy (Sitecore SBOS business unit) and XD teams into a larger, cross-functional department"
+    ],
+    "teamImpact": [
+      "Bring about change of attitude in internal marketplace. The lead to customers coming to us instead of going out to agencies and our billings revenue to increase",
+      "Evidenced quality and delivery, which in turn allowed UK leadership to win further budget for growth",
+      "Built on their strengths as thought leaders in enterprise technology to claim thought leadership in workplace transformation",
+      "Competed successfully",
+      "Helped me bring in my chargeability targets and the right employee survey results (it was adventure and I think most of the team was happy to be there)"
+    ]
+  },
+  {
+    "name": "Currys",
+    "idx": "060",
+    "anon": "Re-energize digital teams as part of an exec turnaround team",
+    "orgDescription": "High-street and ecommerce retailer",
+    "myRole": "Head of Customer Experience",
+    "details": "Lead in-house teams and manage offshore dev team",
+    "myActions": [
+      "Give a broken team hope, a huge hug, and give them my 100% permission to question assumptions and kick ass",
+      "Advocate for UCD as part of a large technology transformation, keeping the group honest, and human-focused",
+      "Establish ways of working between remote dev unit in Paris and design teams in London"
+    ],
+    "teamImpact": [
+      "Successfully re-platform the three largest e-commerce websites in the UK in time for Peak trading",
+      "Collaborate with external consultants while nurturing their in-house culture and setting up stronger, more resilient teams",
+      "Deliver a foundational base for the parent company's turnaround (my team didn't turn the ecommerce business around on their own but they sure as hell made our customers more likely to make up with us).",
+      "Support and adapt the processes and behaviours to land a marketing automation and experience management toolset"
+    ]
+  },
+  {
+    "name": "Vodafone R&D",
+    "idx": "070",
+    "anon": "Structuring a design-led test-and-learn team at a mobile operator",
+    "orgDescription": "Group HQ and R&D units of a global mobile service provider",
+    "myRole": "Team lead in charge of innovation in finance-related services",
+    "details": "Led a small in-house team, supplemented by external agencies and dev teams and closely coordinated with Group R&D",
+    "myActions": [
+      "Advocate for design",
+      "Cross-silo diplomacy",
+      "Build network of approved suppliers to support exploration and prototyping",
+      "Secure budgets so team can launch pilots"
+    ],
+    "teamImpact": [
+      "Established commercial credibility and relevance of R&D unit",
+      "Created successful pitch for funding to social investment fund",
+      "Launched pilot services in Egypt and Romanian markets"
+    ]
+  }
+]

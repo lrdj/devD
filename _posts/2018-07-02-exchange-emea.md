@@ -6,7 +6,8 @@ subtitle: "Developing a brand for a London vineyard with social purpose"
 intro: >
   Dug did the ethnography, concept development, service design and prototyping in partnership with Vodafone R&amp;D teams in London and in Spain. The beta of the Exchange server was built on top of <a href="http://www.ocastalabs.com">Ocastalab's</a> Statusnet service and is currently live.
 
-featured_image: /i/agora_UI.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/agora_UI.jpg
 
 tags:
  - "Complex applications"

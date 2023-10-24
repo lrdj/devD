@@ -2,15 +2,19 @@
 layout: 2023/post
 title: Things that give ecommerce retailers nightmares?
 subtitle: Thoughts on multi-chanel commerce after re-platforming Dixons Stores Group.
-featured_image: /i/epos-risk.jpg
+hero_image_alt: "High-stakes ecommerce UX work with angry performance meetings every Monday and website numbers that boggle the mind... "
+hero_image: /i/epos-risk.jpg
+
 tags: 
-  - "channel optimisation"
+  - channel optimisation
   - consultancy
-  - ecommerce
-  - retail
   - mcn
-  - "multi-channel retail"
+  - multi-channel retail
   - solutions 
+
+categories:
+  - eCommerce
+  - Retail
 
 intro: >
   I was speaking to some consultants recently and we got to talking about empathy and what makes a great ecommerce consultant.

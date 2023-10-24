@@ -2,7 +2,8 @@
 layout: 2023/post
 title: Fix your bill with your thumb
 subtitle: Sometimes you need to reframe the problem before you solve it
-featured_image: /i/mental_model_small.jpg
+hero_image_alt: "No alt content yet"
+hero_image: /i/mental_model_small.jpg
 tags:
   - billing
   - customer experience
