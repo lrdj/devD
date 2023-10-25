@@ -1,7 +1,50 @@
 [
   {
-    "name": "Lloyds",
+    "name": "Accenture",
     "idx": "1",
+    "uri": "tech-consultancy",
+    "anon": "Grow a practice in a global tech consulting firm with low design maturity",
+    "orgDescription": "Management consultancy",
+    "myRole": "Digital Consulting Director",
+    "details": "Lead UK region of new consulting practice at global consulting firm. Immature design business when I joined. Built UK arm of global design organization",
+    "myActions": [
+      "Advocate for design. Over, and over, and over",
+      "Collaborate with Global team-mates to make the most of our mix of backgrounds and skills",
+      "Create a place of safety where my people could thrive and produce great work",
+      "Negotiated to bring design thinking successfully into the company culture taking account the firm's hyper-accountability culture",
+      "Organised the coming together of the digital strategy (Sitecore SBOS business unit) and Design teams into a larger, cross-functional department"
+    ],
+    "teamImpact": [
+      "Bring about change of attitude in internal marketplace. This lead to more customers coming to us instead of going out to agencies, and an increase in our billings revenue",
+      "Evidenced quality and delivery, which in turn allowed UK leadership to win further budget for growth",
+      "Built on their strengths as thought leaders in enterprise technology to claim thought leadership in workplace transformation",
+      "Competed successfully with other agencies in the group and beyond",
+      "Helped me bring in my chargeability targets and the right employee survey results (it was an adventure and I think most of the team was happy to be there)"
+    ]
+  },
+  {
+    "name": "Currys",
+    "idx": "2",
+    "uri": "",
+    "anon": "Re-energize digital teams as part of an exec turnaround team",
+    "orgDescription": "High-street and ecommerce retailer",
+    "myRole": "Head of Customer Experience",
+    "details": "Lead in-house teams and manage offshore dev team",
+    "myActions": [
+      "Give a broken team hope, a huge hug, and give them my 100% permission to question assumptions and kick ass",
+      "Advocate for UCD as part of a large technology transformation, keeping the group honest, and human-focused",
+      "Establish ways of working between remote dev unit in Paris and design teams in London"
+    ],
+    "teamImpact": [
+      "Successfully re-platform the three largest e-commerce websites in the UK in time for Peak trading",
+      "Collaborate with external consultants while nurturing their in-house culture and setting up stronger, more resilient teams",
+      "Deliver a foundational base for the parent company's turnaround (my team didn't turn the ecommerce business around on their own, but they sure as hell made our customers more likely to make up with us).",
+      "Support and adapt the processes and behaviours to land a marketing automation and experience management toolset"
+    ]
+  },
+  {
+    "name": "Lloyds",
+    "idx": "3",
     "uri": "",
     "anon": "Guiding an in-house design org towards greater strategic relevance",
     "orgDescription": "High-street bank",
@@ -22,7 +65,7 @@
   },
   {
     "name": "Typeform",
-    "idx": "2",
+    "idx": "4",
     "uri": "",
     "anon": "Improving a product organisation with business design leadership",
     "orgDescription": "Round \"C\" SaaS scale-up",
@@ -40,7 +83,7 @@
   },
   {
     "name": "Designit",
-    "idx": "3",
+    "idx": "5",
     "uri": "",
     "anon": "Setting up a design agency for growth as part of a global tech consultancy",
     "orgDescription": "Design agency in tech consult group",
@@ -60,7 +103,7 @@
   },
   {
     "name": "Nile",
-    "idx": "4",
+    "idx": "6",
     "uri": "",
     "anon": "Helping a boutique consultancy find their misplaced mojo",
     "orgDescription": "Boutique design consultancy",
@@ -76,49 +119,6 @@
       "Team members rebuilding agency reputation by speaking and coaching at events like Global Service Jam",
       "Research leads co-designed and delivered a new service offering based on the provision of incremental value from user research",
       "Leads engaged with new partners in technology and data to shape go-to-markets"
-    ]
-  },
-  {
-    "name": "Accenture",
-    "idx": "5",
-    "uri": "tech-consultancy",
-    "anon": "Grow a practice in a global tech consulting firm with low design maturity",
-    "orgDescription": "Management consultancy",
-    "myRole": "Digital Consulting Director",
-    "details": "Lead UK region of new consulting practice at global consulting firm. Immature design business when I joined. Built UK arm of global design organization",
-    "myActions": [
-      "Advocate for design. Over, and over, and over",
-      "Collaborate with Global team-mates to make the most of our mix of backgrounds and skills",
-      "Create a place of safety where my people could thrive and produce great work",
-      "Negotiated to bring design thinking successfully into the company culture taking account the firm's hyper-accountability culture",
-      "Organised the coming together of the digital strategy (Sitecore SBOS business unit) and Design teams into a larger, cross-functional department"
-    ],
-    "teamImpact": [
-      "Bring about change of attitude in internal marketplace. The lead to customers coming to us instead of going out to agencies and our billings revenue to increase",
-      "Evidenced quality and delivery, which in turn allowed UK leadership to win further budget for growth",
-      "Built on their strengths as thought leaders in enterprise technology to claim thought leadership in workplace transformation",
-      "Competed successfully",
-      "Helped me bring in my chargeability targets and the right employee survey results (it was adventure and I think most of the team was happy to be there)"
-    ]
-  },
-  {
-    "name": "Currys",
-    "idx": "6",
-    "uri": "",
-    "anon": "Re-energize digital teams as part of an exec turnaround team",
-    "orgDescription": "High-street and ecommerce retailer",
-    "myRole": "Head of Customer Experience",
-    "details": "Lead in-house teams and manage offshore dev team",
-    "myActions": [
-      "Give a broken team hope, a huge hug, and give them my 100% permission to question assumptions and kick ass",
-      "Advocate for UCD as part of a large technology transformation, keeping the group honest, and human-focused",
-      "Establish ways of working between remote dev unit in Paris and design teams in London"
-    ],
-    "teamImpact": [
-      "Successfully re-platform the three largest e-commerce websites in the UK in time for Peak trading",
-      "Collaborate with external consultants while nurturing their in-house culture and setting up stronger, more resilient teams",
-      "Deliver a foundational base for the parent company's turnaround (my team didn't turn the ecommerce business around on their own but they sure as hell made our customers more likely to make up with us).",
-      "Support and adapt the processes and behaviours to land a marketing automation and experience management toolset"
     ]
   },
   {
