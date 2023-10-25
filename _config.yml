@@ -2,7 +2,7 @@ title: Good looks like this
 email: dug@goodlookslikethis.com
 description: >- # this means to ignore newlines until "baseurl:"
   Some of Dug's slightly more interesting design things.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/devD" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  lrdj
