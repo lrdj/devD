@@ -44,9 +44,11 @@ body {
   font-size: large;
   }
 
-h1,h2,h3,h4,h5,h6 { font-weight: 800; }
+h1,h2,h3,h4,h5,h6 { font-weight: 700; }
 
 h2,h3,h4,h5,h6 { margin:1em 0 0 0; line-height: 1.3em;}
+
+.emphasisBlock { margin:1.5em 0 0.5em 0; width:66%; }
 
 h1#headTitle {
   font-size: 3.5em;

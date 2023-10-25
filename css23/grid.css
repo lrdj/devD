@@ -173,21 +173,6 @@ blockquote {
 
 div {border:0px solid red;}
 
-dl {
-  display: flex;
-  flex-flow: row wrap;
-  margin:1em 0 1em 0;
-}
-dt {
-  flex-basis: 20%;
-  text-align: left;
-  text-transform: uppercase;
-}
-dd {
-  flex-basis: 70%;
-  flex-grow: 1;
-  margin: 0;
-}
 
 .heroimagecaption {
   width: 66%;
